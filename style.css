@@ -1,0 +1,15 @@
+body {
+    font-family: "Helvetica", Sans-Serif;
+}
+
+#nav {
+    /* overflow: hidden; */
+    /* float: left; */
+    display: flex;
+    /* text-align: center; */
+}
+
+.list {
+    list-style: none;
+    
+}
