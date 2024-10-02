@@ -2,14 +2,55 @@ body {
     font-family: "Helvetica", Sans-Serif;
 }
 
-#nav {
-    /* overflow: hidden; */
-    /* float: left; */
-    display: flex;
-    /* text-align: center; */
+.size-6 {
+    width: 20px;
 }
 
-.list {
-    list-style: none;
+.logo {
+    font-size: 35px;
+        margin: 0;
+            padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+        margin: 0;
+            padding: 0;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: baseline;
+        margin: 0;
+            padding: 0;
+}
+
+.nav-list-left, .nav-list-right {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+        margin: 0;
+            padding: 0;
+}
+
+#nav li {
+    padding: 0px 16px;
+        margin: 0;
     
 }
+
+#nav .language {
+    color: lightseagreen;
+        margin: 0;
+            padding: 0;
+}
+
+#nav a, #footer a {
+    text-decoration: none;
+    color: black;
+        margin: 0;
+            padding: 0;
+}
+
