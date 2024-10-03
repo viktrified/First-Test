@@ -1,5 +1,7 @@
 body {
     font-family: "Helvetica", Sans-Serif;
+    margin: 0;
+    padding: 0;
 }
 
 .size-6 {
@@ -8,49 +10,58 @@ body {
 
 .logo {
     font-size: 35px;
-        margin: 0;
-            padding: 0;
 }
 
 #nav {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-        margin: 0;
-            padding: 0;
 }
 
 .nav-left, .nav-right{
     display: flex;
     align-items: baseline;
-        margin: 0;
-            padding: 0;
 }
 
-.nav-list-left, .nav-list-right {
+.nav-list-left, .nav-list-right, .footer-list {
     display: flex;
     list-style-type: none;
     align-items: baseline;
-        margin: 0;
-            padding: 0;
-}
-
-#nav li {
-    padding: 0px 16px;
-        margin: 0;
-    
+            font-size: 17px;
 }
 
 #nav .language {
     color: lightseagreen;
-        margin: 0;
-            padding: 0;
+    transform: scale(0.95);
+}
+
+#nav .language:hover {
+    color: #0F52BA;
+
 }
 
 #nav a, #footer a {
     text-decoration: none;
     color: black;
-        margin: 0;
-            padding: 0;
 }
 
+.button {
+    background-color: #C0C0C0;
+    padding: 4px 6px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #6082B6;
+}
+
+/* .button:after {
+ width: 200px;
+ height: 200px;
+ background-color: black;
+}
+
+button:after{
+ background-color: black;
+ transform: scale(0.7);
+} */
